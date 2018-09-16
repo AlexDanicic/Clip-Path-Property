@@ -1,0 +1,55 @@
+body {
+    background-color: #547e7e;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow-x prevent horizontal scrolling. */
+    overflow-x: hidden;
+}
+
+#main {
+    background: url("railPhoto.jpeg");
+    height: 600px;
+    /* background-size: cover;     */
+    margin: 0 auto;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+    /* https://www.bennettfeely.com/clippy/ */
+}
+
+#main h1 {
+    color: #0ff;
+    text-align: center;
+    text-shadow: 5px 5px 5px #3c3cda;
+    padding-top: 200px;
+    font-size: 6em;
+    margin-top: 0;
+    
+}
+
+.text1 {
+    background: rgb(107, 107, 238);
+    padding: 15px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.text2 {
+    background: #cac99b;
+    padding: 15px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+p {
+    line-height: 48px;
+    text-align: center;
+    background: #555;
+    color: #cacaca;
+    font-size: 20px;
+    padding: 25px;
+    border: 3px dotted #00ff00;
+}
